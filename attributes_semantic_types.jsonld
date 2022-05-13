@@ -1,0 +1,9 @@
+{
+   "@context": [
+   {
+      "schema": "http://schema.org/",
+      "foaf": "http://xmlns.com/foaf/0.1/"
+    },
+    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.5.jsonld"
+  ]
+}

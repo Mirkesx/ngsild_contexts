@@ -1,0 +1,30 @@
+{
+   "@context": [
+        {
+            "schema": "http://schema.org/",
+            "foaf": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+            "foaf:knows": {
+                "@id": "foaf:knows",
+                "@context": {
+                    "object": {
+                        "@id": "ngsi-ld:hasObject",
+                        "@type": "schema:Person"
+                    }
+                }
+            }
+        },
+        {
+            "schema:name": {
+                "@id": "schema:name",
+                "@context": {
+                    "value": {
+                        "@id": "ngsi-ld:hasValue",
+                        "@type": "schema:name"
+                    }
+                }
+            }
+        }
+    ]
+}

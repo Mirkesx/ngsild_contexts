@@ -1,0 +1,6 @@
+{
+	"@context": [
+		"https://saref.etsi.org/core/v3.1.1/saref.jsonld",
+		"http://cavallispa.altervista.org/attributes_semantic_types.jsonld"
+	]
+}
